@@ -2285,12 +2285,17 @@
         }
 
         // Schedule auto-export (debounced)
-        function scheduleAutoExport() {
-            if (autoSaveTimer) clearTimeout(autoSaveTimer);
-            autoSaveTimer = setTimeout(() => {
-                autoExportAllFiles();
-            }, 2000); // Export 2 seconds after last save
-        }
+function scheduleAutoExport() {
+    // ADDED: Check the dropdown setting before proceeding
+    const exportSetting = document.getElementById('auto-export-setting').value;
+    if (exportSetting !== 'always') return; // Exit immediately if set to manual
+
+    if (autoSaveTimer) clearTimeout(autoSaveTimer);
+    autoSaveTimer = setTimeout(() => {
+        autoExportAllFiles();
+    }, 2000); // Export 2 seconds after last save
+}
+
 
         // Export individual data type to JSON file
         function exportDataFile(type) {
