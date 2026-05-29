@@ -3208,13 +3208,20 @@ function scheduleAutoExport() {
 
         // ===== SETTINGS =====
         function setupSettings() {
-            document.getElementById('archive-name').value = store.settings.archiveName || 'Nexus Archive';
-            
-            document.getElementById('save-settings').addEventListener('click', () => {
-                store.settings.archiveName = document.getElementById('archive-name').value.trim() || 'Nexus Archive';
-                saveToStorage();
-                showToast('Settings saved', 'success');
-            });
+    document.getElementById('archive-name').value = store.settings.archiveName || 'Nexus Archive';
+    
+    // ADDED: Load the saved auto-export setting (defaults to 'manual')
+    document.getElementById('auto-export-setting').value = store.settings.autoExport || 'manual';
+    
+    document.getElementById('save-settings').addEventListener('click', () => {
+        store.settings.archiveName = document.getElementById('archive-name').value.trim() || 'Nexus Archive';
+        
+        // ADDED: Save the auto-export setting to the store
+        store.settings.autoExport = document.getElementById('auto-export-setting').value;
+        
+        saveToStorage();
+        showToast('Settings saved', 'success');
+    });
 
             // Individual file exports
             document.getElementById('export-novels-file').addEventListener('click', () => {
