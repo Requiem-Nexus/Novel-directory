@@ -1,0 +1,273 @@
+{
+  "exportDate": "2026-01-15T14:00:00.000Z",
+  "version": "1.0",
+  "archiveName": "Nexus Archive",
+  "files": {
+    "novels": [
+      {
+        "id": "id_1705312200000_sample1",
+        "title": "The Last Archive",
+        "author": "A.I. Writer",
+        "genre": "Sci-Fi",
+        "status": "draft",
+        "description": "In a world where knowledge is power, one archive holds the key to humanity's future. Follow the journey of archivists protecting the last remnants of human civilization.",
+        "tags": "sci-fi, dystopian, archive, future",
+        "createdAt": "2026-01-15T10:30:00.000Z",
+        "updatedAt": "2026-01-15T12:45:00.000Z"
+      },
+      {
+        "id": "id_1705312200000_sample2",
+        "title": "Chronicles of the Void",
+        "author": "Space Explorer",
+        "genre": "Fantasy",
+        "status": "published",
+        "description": "A tale of magic and mystery in a realm where the stars themselves hold ancient powers. The Void Walkers seek to unlock the secrets of the cosmos.",
+        "tags": "fantasy, magic, space, adventure",
+        "createdAt": "2026-01-10T08:00:00.000Z",
+        "updatedAt": "2026-01-14T16:30:00.000Z"
+      },
+      {
+        "id": "id_1705312200000_sample3",
+        "title": "Shadows of Tomorrow",
+        "author": "Mystery Master",
+        "genre": "Thriller",
+        "status": "draft",
+        "description": "A psychological thriller exploring the boundaries of memory and identity. When the past becomes unreliable, what can we trust?",
+        "tags": "thriller, mystery, psychological, suspense",
+        "createdAt": "2026-01-12T14:20:00.000Z",
+        "updatedAt": "2026-01-15T09:15:00.000Z"
+      }
+    ],
+    "characters": [
+      {
+        "id": "id_1705312200000_char1",
+        "name": "Dr. Elena Vance",
+        "role": "Protagonist",
+        "affiliation": "Nexus Archive",
+        "power": 75,
+        "novelId": "id_1705312200000_sample1",
+        "description": "Chief archivist and protector of the last knowledge repository. Brilliant, determined, and haunted by the past. She carries the weight of human history on her shoulders.",
+        "createdAt": "2026-01-15T10:30:00.000Z",
+        "updatedAt": "2026-01-15T12:45:00.000Z"
+      },
+      {
+        "id": "id_1705312200000_char2",
+        "name": "Marcus Chen",
+        "role": "Deuteragonist",
+        "affiliation": "Nexus Archive",
+        "power": 60,
+        "novelId": "id_1705312200000_sample1",
+        "description": "Head of security and Elena's trusted ally. A former soldier who found purpose in protecting knowledge instead of destroying it.",
+        "createdAt": "2026-01-15T11:00:00.000Z",
+        "updatedAt": "2026-01-15T11:00:00.000Z"
+      },
+      {
+        "id": "id_1705312200000_char3",
+        "name": "The Void King",
+        "role": "Antagonist",
+        "affiliation": "Void Walkers",
+        "power": 95,
+        "novelId": "id_1705312200000_sample2",
+        "description": "Ancient entity who commands the power of empty space. Neither good nor evil, but driven by an incomprehensible purpose.",
+        "createdAt": "2026-01-10T08:00:00.000Z",
+        "updatedAt": "2026-01-14T16:30:00.000Z"
+      },
+      {
+        "id": "id_1705312200000_char4",
+        "name": "Lyra Starborn",
+        "role": "Protagonist",
+        "affiliation": "Star Seekers",
+        "power": 88,
+        "novelId": "id_1705312200000_sample2",
+        "description": "A young mage born under a dying star. Her powers grow with each constellation that fades from the sky.",
+        "createdAt": "2026-01-10T09:00:00.000Z",
+        "updatedAt": "2026-01-13T14:00:00.000Z"
+      },
+      {
+        "id": "id_1705312200000_char5",
+        "name": "Detective Sarah Mills",
+        "role": "Protagonist",
+        "affiliation": "Metro Police",
+        "power": 45,
+        "novelId": "id_1705312200000_sample3",
+        "description": "A detective who can see fragments of other people's memories. A gift that helps solve cases but haunts her every waking moment.",
+        "createdAt": "2026-01-12T14:20:00.000Z",
+        "updatedAt": "2026-01-15T09:15:00.000Z"
+      }
+    ],
+    "lore": [
+      {
+        "id": "id_1705312200000_lore1",
+        "title": "The Great Collapse",
+        "category": "History",
+        "era": "Pre-Archive Era",
+        "content": "The Great Collapse marked the end of the digital age. When the networks failed, civilization fractured. Only those who preserved knowledge in physical form survived the transition. The event lasted seven years and reduced the global population by 60%. Those who emerged became the founders of the Archive system.",
+        "novelId": "id_1705312200000_sample1",
+        "createdAt": "2026-01-15T10:30:00.000Z",
+        "updatedAt": "2026-01-15T12:45:00.000Z"
+      },
+      {
+        "id": "id_1705312200000_lore2",
+        "title": "The Archive System",
+        "category": "Technology",
+        "era": "Post-Collapse Era",
+        "content": "The Archive System was developed by the first generation of survivors. It combines physical storage with quantum encryption to preserve knowledge indefinitely. Each Archive is self-sustaining, powered by geothermal energy and protected by multiple security layers. There are only twelve Archives remaining in the known world.",
+        "novelId": "id_1705312200000_sample1",
+        "createdAt": "2026-01-15T11:00:00.000Z",
+        "updatedAt": "2026-01-15T11:00:00.000Z"
+      },
+      {
+        "id": "id_1705312200000_lore3",
+        "title": "Void Magic",
+        "category": "Magic System",
+        "era": "Age of Stars",
+        "content": "Void Magic draws power from the empty spaces between stars. Practitioners, known as Void Walkers, can manipulate gravity, create portals, and bend light. The magic comes at a cost - prolonged use causes 'Void Sickness,' where the user gradually loses connection to physical reality. Only the strongest can walk the Void and return unchanged.",
+        "novelId": "id_1705312200000_sample2",
+        "createdAt": "2026-01-10T08:00:00.000Z",
+        "updatedAt": "2026-01-14T16:30:00.000Z"
+      },
+      {
+        "id": "id_1705312200000_lore4",
+        "title": "The Constellation Pact",
+        "category": "History",
+        "era": "Age of Stars",
+        "content": "When the stars began dying, the ancient mages formed the Constellation Pact. Each magical house was assigned a constellation to protect. As long as the constellation burns, the house retains its power. The Void King seeks to extinguish all stars, which would make him the sole source of power in the universe.",
+        "novelId": "id_1705312200000_sample2",
+        "createdAt": "2026-01-10T09:00:00.000Z",
+        "updatedAt": "2026-01-13T14:00:00.000Z"
+      },
+      {
+        "id": "id_1705312200000_lore5",
+        "title": "Memory Fragments",
+        "category": "World-Building",
+        "era": "Modern Era",
+        "content": "Memory Fragments are residual psychic imprints left behind by intense emotional experiences. Some individuals, like Detective Sarah Mills, can perceive these fragments. The ability is rare and often develops after a traumatic event. Memory Fragments fade over time, which is why detectives with this ability are invaluable for cold cases.",
+        "novelId": "id_1705312200000_sample3",
+        "createdAt": "2026-01-12T14:20:00.000Z",
+        "updatedAt": "2026-01-15T09:15:00.000Z"
+      },
+      {
+        "id": "id_1705312200000_lore6",
+        "title": "The Undercity",
+        "category": "Geography",
+        "era": "Modern Era",
+        "content": "Beneath the gleaming surface of Neo-Tokyo lies the Undercity, a sprawling network of abandoned subway tunnels, forgotten bunkers, and illegal settlements. It's home to those who fell through the cracks of society. The police rarely venture down there, making it a haven for criminals and rebels alike.",
+        "novelId": "id_1705312200000_sample3",
+        "createdAt": "2026-01-12T15:00:00.000Z",
+        "updatedAt": "2026-01-14T10:00:00.000Z"
+      }
+    ],
+    "chapters": [
+      {
+        "novelId": "id_1705312200000_sample1",
+        "chapters": [
+          {
+            "id": "id_1705312200000_ch1_1",
+            "number": 1,
+            "title": "The Last Entry",
+            "status": "published",
+            "content": "The archive was silent, as it had been for three days. Elena ran her fingers along the spine of the last physical book ever added to the collection. Its pages were yellowing, but the words remained clear...",
+            "createdAt": "2026-01-15T10:30:00.000Z"
+          },
+          {
+            "id": "id_1705312200000_ch1_2",
+            "number": 2,
+            "title": "Echoes of the Past",
+            "status": "published",
+            "content": "Marcus found her in the deep storage level, surrounded by boxes of pre-Collapse artifacts. She was holding something he had never seen before - a photograph...",
+            "createdAt": "2026-01-15T11:00:00.000Z"
+          },
+          {
+            "id": "id_1705312200000_ch1_3",
+            "number": 3,
+            "title": "The Signal",
+            "status": "draft",
+            "content": "It came at dawn. A signal from outside the Archive walls. After years of silence, someone - or something - was trying to communicate...",
+            "createdAt": "2026-01-15T12:45:00.000Z"
+          }
+        ]
+      },
+      {
+        "novelId": "id_1705312200000_sample2",
+        "chapters": [
+          {
+            "id": "id_1705312200000_ch2_1",
+            "number": 1,
+            "title": "Born Under Dying Stars",
+            "status": "published",
+            "content": "Lyra's first breath coincided with the extinction of the Cassiopeia constellation. The midwives knew immediately - this child was marked by the Void...",
+            "createdAt": "2026-01-10T08:00:00.000Z"
+          },
+          {
+            "id": "id_1705312200000_ch2_2",
+            "number": 2,
+            "title": "The First Walk",
+            "status": "published",
+            "content": "At age seven, Lyra took her first steps into the Void. She didn't fall. She floated, suspended in the darkness between worlds...",
+            "createdAt": "2026-01-10T09:00:00.000Z"
+          },
+          {
+            "id": "id_1705312200000_ch2_3",
+            "number": 3,
+            "title": "The Void King's Shadow",
+            "status": "published",
+            "content": "He appeared to her in dreams first. A figure made of starlight and emptiness, offering knowledge no mortal was meant to possess...",
+            "createdAt": "2026-01-11T10:00:00.000Z"
+          },
+          {
+            "id": "id_1705312200000_ch2_4",
+            "number": 4,
+            "title": "Gathering of Houses",
+            "status": "published",
+            "content": "The twelve magical houses convened for the first time in a century. The stars were dying faster than predicted, and the Constellation Pact was failing...",
+            "createdAt": "2026-01-12T11:00:00.000Z"
+          },
+          {
+            "id": "id_1705312200000_ch2_5",
+            "number": 5,
+            "title": "Betrayal at Starfall",
+            "status": "draft",
+            "content": "House Andromeda fell in a single night. When Lyra arrived, there was nothing left but cold ash and a message written in Void fire...",
+            "createdAt": "2026-01-14T16:30:00.000Z"
+          }
+        ]
+      },
+      {
+        "novelId": "id_1705312200000_sample3",
+        "chapters": [
+          {
+            "id": "id_1705312200000_ch3_1",
+            "number": 1,
+            "title": "Fragments",
+            "status": "published",
+            "content": "Sarah touched the victim's jacket and saw a flash - a man's face, terrified, running. Then darkness. She pulled her hand back, gasping...",
+            "createdAt": "2026-01-12T14:20:00.000Z"
+          },
+          {
+            "id": "id_1705312200000_ch3_2",
+            "number": 2,
+            "title": "The Pattern",
+            "status": "published",
+            "content": "Five victims, five different locations, but the same Memory Fragment at each scene. Sarah was looking at a serial killer who left pieces of his own past behind...",
+            "createdAt": "2026-01-13T09:00:00.000Z"
+          },
+          {
+            "id": "id_1705312200000_ch3_3",
+            "number": 3,
+            "title": "Into the Undercity",
+            "status": "draft",
+            "content": "The trail led downward, into the depths where the city's light couldn't reach. Sarah had never ventured this deep into the Undercity. She wasn't sure she would make it back...",
+            "createdAt": "2026-01-15T09:15:00.000Z"
+          }
+        ]
+      }
+    ],
+    "settings": {
+      "archiveName": "Nexus Archive",
+      "autoExport": "manual",
+      "theme": "dark",
+      "createdAt": "2026-01-15T10:00:00.000Z",
+      "lastBackup": "2026-01-15T14:00:00.000Z"
+    }
+  }
+}
